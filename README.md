@@ -1,24 +1,30 @@
-# README
+# Rails 8 Boilerplate
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is just a small Rails boilerplate with the following preinstalled gems
 
 Things you may want to cover:
 
-* Ruby version
+* Devise
 
-* System dependencies
+* Tailwind
 
-* Configuration
+* Pundit
 
-* Database creation
+* Sidekiq
 
-* Database initialization
+* Postgresql
 
-* How to run the test suite
+# Start the project
 
-* Services (job queues, cache servers, search engines, etc.)
+Before starting the project remember to **change the app name** `rails_boiler_plate`
 
-* Deployment instructions
+To start the Rails server run:
 
-* ...
+```
+./bin/dev
+```
+
+To start the sidekiq server run: 
+```
+sidekiq
+```
